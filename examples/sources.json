@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "基础 RAG：项目中文学习笔记",
+      "path": "sources/basic_rag.md",
+      "url": "https://docs.langchain.com/oss/python/deepagents/retrieval",
+      "note": "2026-09-08 根据官方文档编写的中文释义，非官网逐字原文。摘录和行号对应本地笔记。"
+    },
+    {
+      "id": "S2",
+      "title": "混合检索：项目中文学习笔记",
+      "path": "sources/hybrid_search.md",
+      "url": "https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion",
+      "note": "2026-09-08 根据官方文档编写的中文释义，非官网逐字原文。摘录和行号对应本地笔记。"
+    },
+    {
+      "id": "S3",
+      "title": "重排序：项目中文学习笔记",
+      "path": "sources/reranking.md",
+      "url": "https://www.sbert.net/examples/sentence_transformer/applications/retrieve_rerank/README.html",
+      "note": "2026-09-08 根据官方文档编写的中文释义，非官网逐字原文。摘录和行号对应本地笔记。"
+    }
+  ]
+}

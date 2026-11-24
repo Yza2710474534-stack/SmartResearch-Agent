@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "evidence_count": 6,
+  "claim_count": 6,
+  "quote_substrings_verified": true,
+  "citation_ids_verified": true,
+  "semantic_support_verified": false,
+  "note": "仅校验摘录存在和引用关联；原文是否支持推论仍需人工复核。"
+}

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartresearch-agent"
+version = "0.1.0"
+description = "A research-report baseline with traceable local evidence."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["research", "llm", "citations", "evidence", "agent"]
+dependencies = [
+    "openai>=2,<3",
+    "pydantic>=2.10,<3",
+    "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "ruff>=0.11,<1"]
+
+[project.scripts]
+smartresearch = "smartresearch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
