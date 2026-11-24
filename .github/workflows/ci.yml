@@ -10,7 +10,8 @@ permissions:
 jobs:
   checks:
     name: Python ${{ matrix.python-version }}
-    runs-on: ubuntu-latest
+    # Ubuntu 24.04 has setup-python builds for every version in this matrix.
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     strategy:
       fail-fast: false
